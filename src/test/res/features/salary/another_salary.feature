@@ -1,7 +1,7 @@
-@Story_SalaryManagement
+@YANAEVERYWHERE
 Feature: Salary
 
-  @Critical @Test_1
+  @YANA
   Scenario: Modify an employee's salary
     Given the salary management system is initialized with the following data
       | id  | user      | salary   |
@@ -16,7 +16,7 @@ Feature: Salary
     When the boss increases the salary for the employee with id '3' by 5%
     Then the payroll for the employee with id '3' should display a salary of 57750
 
-  @High @Test_1
+  @yana
   Scenario Outline: Modify an employee's salary
     Given the salary management system is initialized with the following data
     When the boss increases the salary for the <user> with id <id> by 5%
