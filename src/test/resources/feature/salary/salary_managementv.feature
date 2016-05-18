@@ -1,4 +1,4 @@
-@Story_BookSearch @ST_521742287
+@YanaTag1
 Feature: Salary Management
 
 Background:
@@ -16,7 +16,7 @@ Given the salary management system is initialized with the following data
 When the boss increases the salary for the employee with id '3' by 5%
 Then the payroll for the employee with id '3' should display a salary of 57750
 
-@SC_154120382
+@YanaTag2
 Scenario: 
 Given the salary management system is initialized with the following data
 | id | user | salary |
@@ -33,7 +33,7 @@ When the boss increases the salary for the employee with id '3' by 5%
 Then the payroll for the employee with id '3' should display a salary of 57750
 
 
-@SC_846656613
+@YanaTag3
 Scenario: 
 Given the salary management system is initialized with the following data
 | id | user | salary |
@@ -50,7 +50,7 @@ When the boss increases the salary for the employee with id '3' by 5%
 Then the payroll for the employee with id '3' should display a salary of 57750
 
 
-@Critical @Test_1 @SC_521743288
+@YanaTag4
 Scenario: Modify an employee's salary
 Given the salary management system is initialized with the following data
 | id | user | salary |
@@ -67,7 +67,7 @@ When the boss increases the salary for the employee with id '3' by 5%
 Then the payroll for the employee with id '3' should display a salary of 57750
 
 
-@Test_1 @High @SC_521747289
+@YanaTag5
 Scenario Outline: Modify an employee's salary
 Given the salary management system is initialized with the following data
 When the boss increases the salary for the <user> with id <id> by 5%
@@ -90,27 +90,14 @@ Examples:
 
 
 
-@SC_935245373
-Scenario: 4
-When sldfkg
-And sdfg
+@YanaTag6
+Scenario: puk
+When kek
+And lal
 
 
-@SC_597198812
-Scenario: 5 sdfgs
-Given alkdsfj
-And asdf
-
-
-@SC_832395343
-Scenario Outline: 6 hahaha
-When the payroll for the employee with id 5 should display a salary of 7
-And the boss increases the salary for the <user> with id <id> by 6%
-Then the customer searches for books published between 56 and 17
-
-Examples: 
-| user | id |
-|  |  |
-
-
-
+@YanaTag7
+Scenario: PUK NAME
+DESCRIPTION PUK
+Given kak
+And puk
