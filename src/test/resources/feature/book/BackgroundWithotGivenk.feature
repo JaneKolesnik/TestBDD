@@ -1,4 +1,4 @@
-@Story_Bad @kj @ST_254740702
+@YANA
 Feature: Given in only one scenariol
 Check Background without given keywordjh
 
@@ -6,25 +6,25 @@ Background:
 Given asd
 And kjsdfhk
 
-@SC_152551732
+@YANA
 Scenario: 
 Given asd
 And kjsdfhk
 
 
-@SC_846203515
+@YANA
 Scenario: 
 Given asd
 And kjsdfhk
 
 
-@Critical @Test_1 @SC_254744701
+@YANA
 Scenario: Check scenario
 Given asd
 And kjsdfhk
 
 
-@Medium @Test_2 @SC_254746699
+@YANA
 Scenario: Check another scenario
 When this scenario started without given keyword
 Then gherkin parser must return error
