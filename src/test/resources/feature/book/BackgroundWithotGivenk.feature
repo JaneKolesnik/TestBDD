@@ -4,18 +4,18 @@ Check Background without given keywordjh
 
 Background: 
 
-Given asd
-And kjsdfhk
-
-@SC_565133711 @YANA
-Scenario: 
-When there is a background in the feature
-Then scenario may not contain Given precondition
+Given a background
+And several conditions in it
 
 @YANA @SC_616056319
 Scenario: 
 Given asd
 And kjsdfhk
+
+@YANA @SC_565133711
+Scenario: 
+When there is a background in the feature
+Then scenario may not contain Given precondition
 
 @YANA @SC_563840607
 Scenario: Check scenario
