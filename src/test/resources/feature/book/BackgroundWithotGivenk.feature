@@ -7,12 +7,12 @@ Background:
 Given asd
 And kjsdfhk
 
-@YANA @SC_616056319
+@SC_565133711 @YANA
 Scenario: 
-Given asd
-And kjsdfhk
+When there is a background in the feature
+Then scenario may not contain Given precondition
 
-@YANA @SC_565133711
+@YANA @SC_616056319
 Scenario: 
 Given asd
 And kjsdfhk
