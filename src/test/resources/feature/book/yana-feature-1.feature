@@ -7,15 +7,16 @@ Background: BACKBACKBACK
 Given a background
 And several conditions in it
 
-@YANA @SC_565133711
+@SC_565133711 @YANA @scenario_001
 Scenario: scenario without background
 some description
 When there is a background in the feature
 Then scenario may not contain Given precondition
 And nobody cares
 
-@YANA @SC_616056319
-Scenario Outline: 
+@YANA @SC_616056319 @scenario_002
+Scenario Outline: example table scenario
+with a description
 Given some certain step
 And some step with ET <parameter>
 When I run the test
@@ -27,13 +28,8 @@ Examples:
 |2|2|
 |3|3|
 
-@YANA @SC_563840607
+@YANA @SC_563840607 @scenario_003
 Scenario: Check scenario
 Given asd
 And kjsdfhk
-
-@YANA @SC_557758578
-Scenario: Check another scenario
-When this scenario started without given keyword
-Then gherkin parser must return error
 
