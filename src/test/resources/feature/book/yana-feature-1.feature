@@ -11,6 +11,10 @@ And several conditions in it
 Scenario: Check scenario
 Given normal text
 And another row
+And another row
+And another row
+And another row
+And another row
 
 @YANA @SC_565133711 @scenario_001
 Scenario: scenario without background
