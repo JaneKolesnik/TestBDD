@@ -9,14 +9,17 @@ And several conditions in it
 
 @SC_565133711 @YANA
 Scenario: scenario without background
+some description
 When there is a background in the feature
 Then scenario may not contain Given precondition
 And nobody cares
 
 @YANA @SC_616056319
 Scenario: 
-Given asd
-And kjsdfhk
+Given some certain step
+And some step with ET <parameter>
+When I run the test
+Then <all the parameters> are applied
 
 @YANA @SC_563840607
 Scenario: Check scenario
