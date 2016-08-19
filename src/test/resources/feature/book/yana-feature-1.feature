@@ -2,12 +2,12 @@
 Feature: yana feature 1
 Check Background without given keywordjh
 
-Background: 
+Background: BACKBACKBACK
 
 Given a background
 And several conditions in it
 
-@SC_565133711 @YANA
+@YANA @SC_565133711
 Scenario: scenario without background
 some description
 When there is a background in the feature
@@ -15,11 +15,17 @@ Then scenario may not contain Given precondition
 And nobody cares
 
 @YANA @SC_616056319
-Scenario: 
+Scenario Outline: 
 Given some certain step
 And some step with ET <parameter>
 When I run the test
 Then <all the parameters> are applied
+
+Examples: 
+|parameter|all the parameters|
+|1|1|
+|2|2|
+|3|3|
 
 @YANA @SC_563840607
 Scenario: Check scenario
