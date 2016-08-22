@@ -18,7 +18,7 @@ Then <all the parameters> are applied
 Examples: 
 |parameter|all the parameters|
 |1|1111|
-|2|2|
+|2|22|
 |3|3|
 
 @YANA @SC_565133711 @scenario_001
