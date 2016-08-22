@@ -1,4 +1,4 @@
-@ST_1012008109 @tagtagtag @this_is_story_tag @this-is-another-tag-very-new-and-vey-beautiful
+@tagtagtag @this_is_story_tag @ST_1012008109 @this-is-another-tag-very-new-and-vey-beautiful
 Feature: Update this name
 I want to see new description
 
@@ -6,7 +6,7 @@ Background:
 
 Given there is some background
 
-@first_scenario_tag @SC_930782033
+@SC_930782033 @first_scenario_tag
 Scenario: First scenario
 There is scenario description
 Lorem ipsum dolor sit amet, mea dico volumus copiosae cu, debet movet doctus ex nec, at adipisci interpretaris usu. Has feugiat ponderum te. Pri nisl case id, te est diam sint regione, in alii philosophia sit. Ius ancillae voluptaria cu. Ut eam dicta partiendo.
