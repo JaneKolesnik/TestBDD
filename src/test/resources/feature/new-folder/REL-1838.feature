@@ -6,7 +6,7 @@ Background:
 
 Given there is some background
 
-@SC_930782033 @first_scenario_tag
+@first_scenario_tag @SC_930782033
 Scenario: First scenario
 There is scenario description
 Lorem ipsum dolor sit amet, mea dico volumus copiosae cu, debet movet doctus ex nec, at adipisci interpretaris usu. Has feugiat ponderum te. Pri nisl case id, te est diam sint regione, in alii philosophia sit. Ius ancillae voluptaria cu. Ut eam dicta partiendo.
