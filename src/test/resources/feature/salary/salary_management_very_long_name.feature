@@ -1,5 +1,5 @@
-@YanaTag1 @ST_610719081
-Feature: Salary Management
+@ST_610719081 @YanaTag1
+Feature: Salary Management Salary Management Salary Management Salary Management Salary Management Salary Management
 
 Background: 
 
