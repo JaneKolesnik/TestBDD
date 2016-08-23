@@ -1,4 +1,4 @@
-@ST_695738803 @feature-tag
+@feature-tag @ST_695738803
 Feature: new-feature-new-feature-new-feature-new-feature-new-feature-new-feature-new-feature-new-feature
 feature decription
 
