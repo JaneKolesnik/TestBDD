@@ -1,4 +1,4 @@
-@tagtagtag @this_is_story_tag @ST_1012008109 @this-is-another-tag-very-new-and-vey-beautiful
+@ST_1012008109 @tagtagtag @this_is_story_tag @this-is-another-tag-very-new-and-vey-beautiful
 Feature: Update this name
 I want to see new description
 
