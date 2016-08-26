@@ -5,11 +5,16 @@ Feature: Book search
 Background: 
 
 Given a $100 microwave was sold on 2015-11-03
-And today is 2015-11-18
+And today is 2s015-11-18
+
+@SC_194982988
+Scenario: ddd
+Given gg
+And ff
 
 @YANA @SC_568904566
-Scenario: 
-Given a $100 microwave was sold on 2015-11-03
+Scenario: ssss
+Given a $100 microwave wass sold on 2015-11-03
 And today is 2015-11-18
 
 @YANA @SC_584579559
