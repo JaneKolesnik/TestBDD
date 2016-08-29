@@ -7,15 +7,10 @@ Background:
 Given a $100 microwave was sold on 2015-11-03
 And today is 2s015-11-18
 
-@SC_194982988
-Scenario: ddd
-Given gg
-And ff
-
-@YANA @SC_568904566
+@SC_568904566 @YANA
 Scenario: ssss
 Given a $100 microwave wass sold on 2015-11-03
-And today is 2015-11-18
+And today is 2015-11-18 d
 
 @YANA @SC_584579559
 Scenario: 
@@ -37,4 +32,9 @@ Then 2 books should have been found
 And Book 1 should have the title 'Some other book'
 And Book 2 should have the title 'One good book'
 Then i want do smth with "smth"
+
+@SC_194982988
+Scenario: ddd
+Given gg
+And ff
 
